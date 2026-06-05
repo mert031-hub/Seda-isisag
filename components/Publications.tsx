@@ -6,7 +6,7 @@ const articles = [
     excerpt:
       "Sağlıklı bir çift ilişkisinde sihirli değneğin ne olduğunu ve ilişkiyi güçlendiren temel unsurları keşfedin.",
     url: "https://www.afyonturkeligazetesi.com/yazarlar/seda-isisag/cift-iliskisinin-sihirli-degnegi/126196",
-    image: "/images/ciftdanis.jpg",
+    image: "/images/sirt.jpg",
     alt: "Çift İlişkisinin Sihirli Değneği",
   },
   {
@@ -16,7 +16,7 @@ const articles = [
     excerpt:
       "İlişkilerde gerçek anlamda duyulma ve anlaşılma ihtiyacını ve bunu sağlamanın yollarını ele alıyorum.",
     url: "https://www.afyonturkeligazetesi.com/yazarlar/seda-isisag/cift-iliskisinde-duyulmak-ve-anlasilmak/122651",
-    image: "/images/ailedanis.webp",
+    image: "/images/duyulma.jpg",
     alt: "Çift İlişkisinde Duyulmak Ve Anlaşılmak",
   },
   {
@@ -26,7 +26,7 @@ const articles = [
     excerpt:
       "Hayat doyumunu artırmak için psikolojik açıdan neler yapabileceğinizi, günlük yaşama nasıl anlam katacağınızı keşfedin.",
     url: "https://www.afyonturkeligazetesi.com/yazarlar/seda-isisag/hayat-doyumu-nasil-saglanir/121924",
-    image: "/images/bireyselterapi2.webp",
+    image: "/images/doyum.jpg",
     alt: "Hayat Doyumu Nasıl Sağlanır",
   },
   {
@@ -36,7 +36,7 @@ const articles = [
     excerpt:
       "Eşler arasındaki tartışmalarda kazanmayı değil, anlaşmayı hedeflemek için pratik ve etkili stratejiler.",
     url: "https://www.afyonturkeligazetesi.com/yazarlar/seda-isisag/esler-arasi-tartismalari-yonetmek-kazanmak-mi-anlasmak-mi/120918",
-    image: "/images/terapiodasi.jpeg",
+    image: "/images/tartisma.webp",
     alt: "Eşler Arası Tartışmaları Yönetmek",
   },
   {
@@ -46,7 +46,7 @@ const articles = [
     excerpt:
       "Zorluklar karşısında kırılmadan eğilebilmenin, psikolojik dayanıklılığı geliştirmenin yollarını ele alıyorum.",
     url: "https://www.afyonturkeligazetesi.com/yazarlar/seda-isisag/psikolojik-saglamlik-kirilmadan-egilmek/119848",
-    image: "/images/terapiodasi2.jpeg",
+    image: "/images/zorluklar.jpg",
     alt: "Psikolojik Sağlamlık: Kırılmadan Eğilmek",
   },
   {
@@ -56,7 +56,7 @@ const articles = [
     excerpt:
       "Evli çiftlerin her iki tarafın ailesine karşı sevgiyle ve saygıyla sınır koymanın önemine dair içgörüler.",
     url: "https://www.afyonturkeligazetesi.com/yazarlar/seda-isisag/evliliklerde-ailelere-sevgiyle-sinir-koymak/118979",
-    image: "/images/oturmaodasi.jpeg",
+    image: "/images/sinirkoymak.jpg",
     alt: "Evliliklerde Ailelere Sevgiyle Sınır Koymak",
   },
   {
@@ -66,7 +66,7 @@ const articles = [
     excerpt:
       "Ait olamama hissinin psikolojik kökenlerini ve bu durumla başa çıkma yollarını anlatan kapsamlı bir değerlendirme.",
     url: "https://www.afyonturkeligazetesi.com/yazarlar/seda-isisag/ait-olamama-hissi-neden-kendimizi-hep-disarida-hissediyoruz/115672",
-    image: "/images/ergen.jpg",
+    image: "/images/ait.jpg",
     alt: "Ait Olamama Hissi",
   },
   {
@@ -76,7 +76,7 @@ const articles = [
     excerpt:
       "Okul başlangıcında yaşanan uyum güçlüklerinde ebeveynlerin çocuklarına nasıl yardımcı olabileceğine dair rehberlik.",
     url: "https://www.afyonturkeligazetesi.com/yazarlar/seda-isisag/okulun-ilk-gunlerinde-zorlanan-cocuklara-nasil-destek-olabilirsiniz/114901",
-    image: "/images/cocukergenterapi.jpg",
+    image: "/images/okul1.jpg",
     alt: "Okulun İlk Günlerinde Zorlanan Çocuklara Destek",
   },
 ];

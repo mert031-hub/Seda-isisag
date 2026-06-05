@@ -10,7 +10,7 @@ const services = [
   {
     title: "Çift Danışmanlığı",
     desc: "İlişki dinamiklerini anlamak, çatışmaları çözmek ve derin bir bağ kurmak için çift odaklı terapi.",
-    image: "/images/ciftdanis.jpg",
+    image: "/images/ciftdanis2.webp",
     alt: "Çift Danışmanlığı",
   },
   {
@@ -58,19 +58,19 @@ const services = [
   {
     title: "Hipnoterapi",
     desc: "Bilinçaltı düzeyde çalışarak istenmeyen alışkanlıkları, korkuları ve blokajları çözmeye yönelik terapi.",
-    image: "/images/terapiodasi2.jpeg",
+    image: "/images/hipno.jpg",
     alt: "Hipnoterapi",
   },
   {
     title: "Cinsel Terapi",
     desc: "Cinsel işlev bozuklukları ve çift uyumu konularında güvenli, etik ve uzman destekli danışmanlık.",
-    image: "/images/terapiodasi.jpeg",
+    image: "/images/cinsel.jpg",
     alt: "Cinsel Terapi",
   },
   {
     title: "Aile Terapisi",
     desc: "Aile sistemini bir bütün olarak ele alarak iletişim örüntülerini iyileştirmeye yönelik terapötik yaklaşım.",
-    image: "/images/hol.jpeg",
+    image: "/images/aile2.jpeg",
     alt: "Aile Terapisi",
   },
 ];

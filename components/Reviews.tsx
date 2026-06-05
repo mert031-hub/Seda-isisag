@@ -11,7 +11,7 @@ const reviews = [
     time: "8 ay önce",
     text: "Bilgisi ve deneyimiyle gerçekten çok yol göstericiydi. Etik değerlere çok dikkat ediyor, hassasiyeti için çok teşekkür ederim. İyi ki varsınız.",
     theme: "Etik Değerler",
-    image: "/images/hol.jpeg",
+    image: "/images/ailedanis.webp",
   },
   {
     name: "Özlem Ç.",

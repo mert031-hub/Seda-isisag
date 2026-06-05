@@ -3,7 +3,6 @@ import Link from "next/link";
 
 const trustItems = [
   { icon: "★", label: "5.0 Google Puanı" },
-  { icon: "✦", label: "32 Değerli Yorum" },
   { icon: "◈", label: "Yüz Yüze & Online" },
   { icon: "◉", label: "Afyonkarahisar Merkez" },
 ];
@@ -99,14 +98,13 @@ export default function Hero() {
                   </div>
                   <div>
                     <div className="text-petrol font-bold text-sm leading-none">5.0</div>
-                    <div className="text-charcoal/60 text-xs mt-0.5">32 Google Yorumu</div>
                   </div>
                 </div>
               </div>
 
               <div className="relative overflow-hidden rounded-[28px] shadow-[0_20px_60px_rgba(23,59,63,0.18)]">
                 <Image
-                  src="/images/terapiodasi.jpeg"
+                  src="/images/seda2.jpg"
                   alt="Seda İşisağ Psikolojik Danışmanlık Merkezi – Terapi odası"
                   width={600}
                   height={750}
