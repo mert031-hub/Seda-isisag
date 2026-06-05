@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #F7F2EA;
+    color: #2F2B28;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .section-heading {
+    @apply font-serif text-petrol tracking-tight;
+  }
+
+  .premium-card {
+    @apply bg-white rounded-card shadow-card border border-stone/30 overflow-hidden transition-all duration-300 hover:shadow-card-hover hover:-translate-y-1;
+  }
+
+  .card-img-wrap {
+    @apply overflow-hidden;
+  }
+
+  .card-img-wrap img,
+  .card-img-wrap .card-img {
+    @apply w-full h-full object-cover transition-transform duration-500 hover:scale-105;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-petrol text-ivory px-6 py-3 rounded-full font-medium text-sm tracking-wide transition-all duration-200 hover:bg-clay hover:shadow-float;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 border border-petrol text-petrol px-6 py-3 rounded-full font-medium text-sm tracking-wide transition-all duration-200 hover:bg-petrol hover:text-ivory;
+  }
+
+  .btn-clay {
+    @apply inline-flex items-center gap-2 bg-clay text-ivory px-5 py-2.5 rounded-full font-medium text-sm tracking-wide transition-all duration-200 hover:bg-petrol hover:shadow-float;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
