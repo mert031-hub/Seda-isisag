@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const services = [
@@ -46,10 +45,55 @@ const services = [
   },
   {
     title: "Dikkat ve Değerlendirme Testleri",
-    desc: "Moxo Dikkat Testi ve diğer psikometrik değerlendirmelerle kapsamlı psikolojik ölçüm ve raporlama.",
+    desc: "Moxo Dikkat Testi ve Attentioner gibi psikometrik araçlarla kapsamlı psikolojik ölçüm ve raporlama.",
     image: "/images/moxo.png",
     alt: "Dikkat ve Değerlendirme Testleri – Moxo",
   },
+  {
+    title: "Bilişsel Davranışçı Terapi",
+    desc: "Olumsuz düşünce kalıplarını fark edip dönüştürmeye odaklanan, bilimsel temelli etkili bir terapi yöntemi.",
+    image: "/images/bdt.jpg",
+    alt: "Bilişsel Davranışçı Terapi",
+  },
+  {
+    title: "Hipnoterapi",
+    desc: "Bilinçaltı düzeyde çalışarak istenmeyen alışkanlıkları, korkuları ve blokajları çözmeye yönelik terapi.",
+    image: "/images/terapiodasi2.jpeg",
+    alt: "Hipnoterapi",
+  },
+  {
+    title: "Cinsel Terapi",
+    desc: "Cinsel işlev bozuklukları ve çift uyumu konularında güvenli, etik ve uzman destekli danışmanlık.",
+    image: "/images/terapiodasi.jpeg",
+    alt: "Cinsel Terapi",
+  },
+  {
+    title: "Aile Terapisi",
+    desc: "Aile sistemini bir bütün olarak ele alarak iletişim örüntülerini iyileştirmeye yönelik terapötik yaklaşım.",
+    image: "/images/hol.jpeg",
+    alt: "Aile Terapisi",
+  },
+];
+
+const treatmentAreas = [
+  "Anksiyete",
+  "Depresyon",
+  "Aile İçi İletişim Sorunları",
+  "Boşanma Travması",
+  "Akran Zorbalığı",
+  "Alt Islatma (Enürezis)",
+  "Bağlanma Sorunları",
+  "Bipolar Bozukluk",
+  "Borderline Kişilik Bozukluğu",
+  "Alışveriş Bağımlılığı",
+  "Anoreksiya",
+  "Ağlama ve Öfke Nöbetleri",
+  "Agorafobi",
+  "Alkol Bağımlılığı",
+  "Anne-Baba Danışmanlığı",
+  "Ergen Sorunları",
+  "Çocuk Gelişimi",
+  "Okul Uyum Sorunları",
 ];
 
 export default function Services() {
@@ -80,11 +124,9 @@ export default function Services() {
             <div key={service.title} className="premium-card group">
               {/* Card Image */}
               <div className="card-img-wrap h-[220px] sm:h-[200px] lg:h-[200px]">
-                <Image
+                <img
                   src={service.image}
                   alt={service.alt}
-                  width={400}
-                  height={240}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
@@ -109,6 +151,39 @@ export default function Services() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Treatment Areas */}
+        <div className="mt-16 bg-white rounded-[24px] border border-stone/30 shadow-card overflow-hidden">
+          <div className="flex flex-col lg:flex-row">
+            {/* Left label */}
+            <div className="lg:w-56 xl:w-64 flex-shrink-0 bg-petrol p-8 flex flex-col justify-center">
+              <div className="text-white/50 text-[10px] font-semibold tracking-[0.2em] uppercase mb-3">
+                Çalışma Alanları
+              </div>
+              <h3 className="text-white font-serif text-xl font-semibold leading-snug mb-3">
+                Tedavi ve Danışmanlık Alanları
+              </h3>
+              <p className="text-white/60 text-xs leading-relaxed">
+                Danışmanlık verilen başlıca konu ve sorunlar.
+              </p>
+            </div>
+
+            {/* Right tags */}
+            <div className="flex-1 p-8">
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-2.5">
+                {treatmentAreas.map((tag) => (
+                  <div
+                    key={tag}
+                    className="flex items-center gap-2 px-3 py-2.5 bg-ivory rounded-xl border border-stone/40 group hover:border-clay/40 hover:bg-clay/5 transition-colors duration-150"
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full bg-clay flex-shrink-0" />
+                    <span className="text-charcoal/75 text-sm font-medium leading-tight">{tag}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
